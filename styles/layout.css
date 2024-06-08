@@ -1,0 +1,48 @@
+*{
+
+}
+
+.content {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+#main-content{
+    padding-inline: 20vh;
+}
+
+#header-bar{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-bar p{
+    color: white;
+}
+#header-bar img{
+    width:50%;
+}
+
+.nav-link {
+    color: #00FA9A;
+}
+
+
+@media (max-width: 767.98px) {
+    .content {
+        padding: 0;
+       
+    }
+    .side-bar{
+        display: flex;
+        flex-direction: row;
+
+        background-color: red;
+    }
+}
+
+
